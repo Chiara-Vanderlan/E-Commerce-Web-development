@@ -148,7 +148,6 @@ body{
     flex-direction: column ;
     align-items: flex-start;
     justify-content: center;
-
 }
 
 #hero h4{
@@ -169,7 +168,6 @@ body{
     cursor: pointer;
     font-weight:700 ;
     font-size: 15px;
-
 }   
 
 /*Feature selection tab*/
@@ -442,7 +440,6 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 footer .col{
@@ -450,7 +447,6 @@ footer .col{
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
-
 }
 
 footer .logo{
@@ -476,21 +472,18 @@ footer a{
 
 footer .follow{
     margin-top: 20px;
-
 }
+
 footer .follow i{
     color: #465b52;
     padding-right: 4px;
     cursor: pointer;
-
 }
 
 footer .payment img{
-
     height: 35px; 
     width: auto;
     margin: 10px 0 15px 0;
-
 }
 
 footer .follow i:hover,
@@ -558,8 +551,7 @@ footer .copyright{
         display: none;
     }
 
-    #hero {
-        
+    #hero { 
         height: 70vh;
         padding: 0 80px;
         background-position: top 30% right 30%;
@@ -569,15 +561,12 @@ footer .copyright{
         justify-content: center;
     }
     
-    #feature .fe-box {
-        
+    #feature .fe-box { 
         margin: 15px 15px;
     }
 
     #product1 .pro-container {
-
         justify-content: center;
-
     }
 
     #product1 .pro {
@@ -586,13 +575,10 @@ footer .copyright{
     }
 
     #banner {
-
         height: 20vh;
-
     }
 
     #sm-banner .banner-box {
-
         min-width: 100%;
         height: 30vh;
     }
@@ -602,39 +588,31 @@ footer .copyright{
     }
 
     #banner3 {
-
         padding: 0 40px;
     }
 
     #banner3 .banner-box {
-
         width: 28%;
-
     }
 
 }
 
 @media (max-width : 477px) {
     #header {
-        
-        padding: 10px 30px;
-
+      padding: 10px 30px;
     }
 
     #hero {
-
         padding: 0 20px;
         background-position: 55%;
     }
     
     h2 {
         font-size: 23px;
-
     }
 
     h1 {
-        font-size: 38px;
-      
+        font-size: 38px;  
     }
 
     .section-p1 {
@@ -646,24 +624,19 @@ footer .copyright{
     }
 
     #feature .fe-box {
-        width: 155px;
-      
+        width: 155px;  
         margin: 0 0 15px 0;
     }
 
     #product1 .pro {
-        width: 100%;
-       
+        width: 100%;   
     }
 
     #banner {
-
         height: 40vh;
-
     }
 
     #sm-banner .banner-box {
-
         height: 40vh;
     }
 
@@ -680,7 +653,6 @@ footer .copyright{
     }
 
     footer .copyright {
-
         text-align: start;
     }
 }
