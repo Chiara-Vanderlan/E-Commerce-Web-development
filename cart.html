@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<section id="header">
+    <a href="#"><img src="img/logo.jpg" class="logo" alt="Hansani Electricals"></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+    </div>
+</section>
+
+<section id="cart" class="section-p1">
+    <h1>Your Cart</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+                <th>Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/lamp.jpeg" alt="Wall Lamp">
+                        <div>
+                            <p>Wall Lamp</p>
+                            <small>Price: Rs.1600</small>
+                        </div>
+                    </div>
+                </td>
+                <td>Rs.1600</td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.1600</td>
+                <td><a href="#"><i class="fa-solid fa-trash"></i></a></td>
+            </tr>
+            <!-- Add more items as needed -->
+        </tbody>
+    </table>
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>Rs.1600</td>
+            </tr>
+            <tr>
+                <td>Tax</td>
+                <td>Rs.160</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>Rs.1760</td>
+            </tr>
+        </table>
+
+        
+    </div>
+    <button class="normal">Proceed to Checkout</button>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="img/logo.jpg" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Hansani Electricals, Chilaw Road, Marawila</p>
+        <p><strong>Phone:</strong> 0322256562</p>
+        <p><strong>Hours:</strong> 8.30 - 19.00, Mon - Sat</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">Wishlist</a>
+        <a href="#">My Orders</a>
+        <a href="#">Help</a>
+    </div>
+    <div class="col payment">
+        <h4>Payment</h4>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay.jpeg" alt="Payment Methods">
+    </div>
+    <div class="copyright">
+        <p>Hansani Electricals Ecommerce website</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
